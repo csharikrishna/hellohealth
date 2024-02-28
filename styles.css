@@ -1,0 +1,90 @@
+body {
+   font-family: 'Arial', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+header {
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color:lightgreen; /* Change the background color as needed */
+    color: white;
+}
+
+ nav, section, footer {
+   margin: 20px;
+   
+}
+.titlecon {
+   display: flex;
+   align-items: center;
+}
+
+.logo {
+   width: 150px;
+   height: 150px; /* Adjust the size as needed */
+   margin-right: 50px; /* Adjust the margin as needed */
+}
+
+header h1 {
+   text-align: center;
+   color: green;
+   font-size: 75px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+nav li {
+   display: inline;
+   margin-right: 20px;
+}
+
+section h2 {
+   color: #333;
+}
+
+.menu-item {
+   margin-bottom: 20px;
+}
+
+.menu-item img {
+   max-width: 100%;
+   height: auto;
+}
+
+.cta-button {
+   display: inline-block;
+   padding: 10px 20px;
+   background-color: #4CAF50;
+   color: white;
+   text-decoration: none;
+   border-radius: 5px;
+}
+
+footer {
+   background-color: #eee;
+   text-align: center;
+   padding: 10px;
+}
+h1
+{
+    color: black;
+    text-align: center;
+}
+.recipe1
+{
+   text-align: left;
+
+}
+.imgr1{
+    float: right; width: 300px; height: 150px;
+}
+
